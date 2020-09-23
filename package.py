@@ -3,6 +3,11 @@ name = "cmake"
 
 version = "3.18.2"
 
+_data = {
+    "label": "cmake",
+    "icon": "{root}/resources/cmake.ico"
+}
+
 tools = [
     "cmake"
 ]
