@@ -12,7 +12,9 @@ tools = [
     "cmake"
 ]
 
-build_command = False
+
+private_build_requires = ["rezutil-1"]
+build_command = "python -m rezutil build {root}"
 
 
 def commands():
